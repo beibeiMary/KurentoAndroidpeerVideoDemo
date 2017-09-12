@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_gray" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView_dialog_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_connect"
+            android:gravity="center|left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/dark_gray" />
+
+        <TextView
+            android:id="@+id/textView_dialog_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="100dp"
+            android:text="@string/button_send_message"
+            android:gravity="center|left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/dark_gray" />
+
+
+        <NumberPicker
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/numberPicker"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:visibility="gone"/>
+
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/progressBar"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:indeterminate="false" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:hint="@string/name"
+            android:gravity="center|left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/dark_gray"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:hint="@string/room"
+            android:gravity="center|left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/dark_gray"
+            android:visibility="gone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:hint="@string/message"
+            android:gravity="center|left"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:background="@color/dark_gray"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp" >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom">
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/button_dialog_cancel"
+                android:text="@string/button_cancel"
+                android:onClick="goBack"
+                android:background="@color/red"
+                android:layout_marginRight="10dp"/>
+
+            <Button
+                style="@style/ButtonStyle"
+                android:id="@+id/button_dialog_ok"
+                android:text="@string/button_ok"
+                android:onClick="startJourney"
+                android:background="@color/blue"/>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

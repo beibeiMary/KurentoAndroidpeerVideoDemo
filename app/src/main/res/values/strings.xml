@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NuboTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_video_chat">Video Call</string>
+    <string name="title_activity_incoming_call">Incoming Call</string>
+
+    <string name="login">Choose a username and room name:</string>
+    <string name="username">Username</string>
+    <string name="join_room">Join room!</string>
+
+    <string name="enter_new_channel">Enter new channel:</string>
+    <string name="action_leave_room">Leave room</string>
+    <string name="here_now">Here Now:</string>
+    <string name="no_call_history">No call History\n\nRecent calls appear here.</string>
+
+    <!-- Incoming Call Activity -->
+    <string name="incoming_call">Incoming Call&#8230;</string>
+    <string name="incoming_call_from">Samuli Heinonen</string>
+    <string name="appbar_scrolling_view_behavior">behaviour</string>
+
+    <string name="name">Name</string>
+    <string name="room">Room</string>
+    <string name="message">Message</string>
+    <string name="not_joined_to_room">You are not joined to any room.</string>
+    <string name="not_connected">You are not connected to the server.</string>
+
+    <string name="button_connect">Connect</string>
+    <string name="button_join_room">Join room</string>
+    <string name="button_send_message">Send message</string>
+    <string name="button_start_videocall">Start videocall</string>
+    <string name="button_disconnect">Disconnect</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+</resources>
